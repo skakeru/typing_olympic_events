@@ -1,0 +1,33 @@
+　<body>
+ <div id="main">
+  <div><h2>オリンピック種目タイピング</h2></div>
+  <img src="https://i.imgur.com/Hk4tqyv.jpg" alt="">
+  <div id="content">
+   <p id="start-message"><span>出題数</span>を選び<span>「スペースキー」</span>を押すとスタートします</p>
+   <p id="yomi">よみ</p>
+   <div id="mondai">
+    <p id="char-1" class="text default">a</p>
+    <p id="char-2" class="text default">b</p>
+    <p id="char-3" class="text default">c</p>
+   </div>
+   <div id="finish-panel" class="hidden">
+    <p>終了!!!</p>
+    <p id="correct-message"></p>
+    <p id="mistake-message"></p>
+    <p id="time-message"></p>
+    <button id="start-button">もう一回</button>
+   </div>
+  </div>
+  
+  <div id="tool">
+   <select id="conut-select">
+    <option value="3">出題数：３問</option>
+    <option value="5">出題数：５問</option>
+    <option value="10">出題数：１０問</option>
+    <option value="40">出題数：全問</option>
+   </select>
+  </div>
+ </div>
+ 
+ 
+</body>
